@@ -15,7 +15,7 @@
 	keymap0: keymap {
 		compatible = "zmk,keymap";
 
-		default_layer {
+		layer_0 {
 // -------------------------------------------------------------------------
 // | ESC  |  Q  |  W  |  E  |  R  |  T  |  Y  |  U  |  I  |  O  |  P  |BKSP|
 // | CAPS  |  A  |  S  |  D  |  F  |  G  |  H  |  J  |  K  |  L  |  ENTER  | 
@@ -30,7 +30,7 @@
 			>;
 		};
 
-		fn_layer {
+		layer_1 {
 // -------------------------------------------------------------------------
 // | ~  |  1   |  2  |  3  |  R  |  T  |  Y  |  U  |  I  |  -  |  =  |BKSP |
 // | TAB  |  4  |  5  |  6   |  F  |  G  |  [  |  ]  |  ;  |  '  |    "|"  |
@@ -43,6 +43,24 @@
 	&kp LSHFT       &kp N7   &kp N8   &kp N9   &trans   &trans   &trans   &kp COMMA   &kp DOT   &trans     &trans
 	&bt BT_CLR   &bootloader   &kp LALT        &kp N0          &trans         &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2
 			>;	
+		};
+
+		layer_2 {
+            bindings = <
+	&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+	&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+	&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  
+	&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans 
+	        >;
+        };
+
+        layer_3 {
+            bindings = <
+	&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+	&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+	&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  
+	&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                       >;	
 		};
 	};
 };
