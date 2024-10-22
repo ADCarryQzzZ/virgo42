@@ -1,4 +1,3 @@
-# virgo42
-用于Virgo42的键位修改
-QQ群：111959335
-Vir-Xu77
+# zmk-config-ELONGATE1800MINI
+用于 ELONGATE1800MINI的键位修改
+VIR—Xu77.
