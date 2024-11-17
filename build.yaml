@@ -16,6 +16,7 @@ include:
   # ipadk
   - board: nrfmicro_13
     shield: virgo42
+    snippet: studio-rpc-usb-uart
     artifact-name: virgo42
   - board: nrfmicro_13
     shield: settings_reset
